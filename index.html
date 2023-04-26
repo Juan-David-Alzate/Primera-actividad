@@ -22,10 +22,10 @@
         </p>
         <h2>Comidas favoritas</h2>
         <ul>
-            <li>Arroz chino.</li>
-            <li>Bandeja paisa.</li>
-            <li>Arepas de queso.</li>
-            <li>Tajadas con queso.</li>
+            <li><a href="https://i.imgur.com/IeMXOU7.jpg%20" target="_blank">Arroz chino.</a></li>
+            <li><a href="https://asadosla80.com/wp-content/uploads/2020/08/Bandeja-Paisa-Asados-la-80-1.jpg" target="_blank">Bandeja paisa.</a></li>
+            <li><a href="https://www.goya.com/media/7859/arepas-cornmeal-patties.jpg?quality=80" target="_blank">Arepas de queso.</a></li>
+            <li><a href="https://pbs.twimg.com/media/CM9n8D5WcAAy3aV.jpg" target="_blank">Tajadas con queso.</a></li>
         </ul>
         <h2>Artistas favoritos</h2>
         <ul>
@@ -37,18 +37,26 @@
 
         <h2>Cancion favorita</h2>
         <audio src="Eladio Carrion - Sauce Boy Freestyle II.mp3" controls></audio>
-        
+        <hr>
         <main>
         <section id="formulario-basico">
             <h1>Formulario basico</h1>
             <form>
                 <div>
-                    <label for="nombre"> Nombre</label>
-                    <input type="text" id="nombre" class="" name="nombre" placeholder="Escriba su nombre">
+                    <label for="nombre"> Primer nombre</label>
+                    <input type="text" id="nombre" class="" name="p-nombre" placeholder="Escriba su primer nombre">
                 </div>
                 <div>
-                    <label for="apellido"> Apellido</label>
-                    <input type="text" id="apellido" class="" name="apellido" placeholder="Escriba su apellido">
+                    <label for="nombre"> Segundo nombre</label>
+                    <input type="text" id="nombre" class="" name="s-nombre" placeholder="Escriba su segundo nombre">
+                </div>
+                <div>
+                    <label for="apellido"> Primer apellido</label>
+                    <input type="text" id="apellido" class="" name="p-apellido" placeholder="Escriba su primer apellido">
+                </div>
+                <div>
+                    <label for="apellido"> Segundo pellido</label>
+                    <input type="text" id="apellido" class="" name="s-apellido" placeholder="Escriba su segundo apellido">
                 </div>
                 <div>
                     <label for="Fecha_nacimiento"> Fecha de nacimiento</label>
@@ -63,13 +71,35 @@
                     <input type="radio" name="sexo"><label>Masculino</label>
                 </div>
                 <div>
-                    <button type="submit">Enviar</button>
+                    <button type="submit">Guardar</button>
                 </div>
             </form>
         </section>
+        <hr>
+        <section id="formulario-tres">
+            <h1>Iniciar seccion</h1>
+            <form>
+                <div>
+                    <label for="correo"> Correo</label>
+                    <input type="email" id="correo" class="" name="correo" placeholder="Escriba su correo">
+                </div>
+                <div>
+                    <label for="contraseña"> Crontaseña</label>
+                    <input type="text" id="contraseña" class="" name="correo" placeholder="Escriba su contraseña">
+                </div>
+                <div>
+                    <button type="submit">Iniciar seccion</button>
+                </div>
+            </form>
+        </section>
+        <hr>
         <section id="formulario-contacto">
             <h1>Formulario contacto</h1>
             <form>
+                <div>
+                    <label for="nombre_completo"> Nombre completo</label>
+                    <input type="text" id="nombre_completo" class="" name="nombre_completo" placeholder="Escriba su nombre completo">
+                </div>
                 <div>
                     <label for="correo"> Correo</label>
                     <input type="email" id="correo" class="" name="correo" placeholder="Escriba su correo">
